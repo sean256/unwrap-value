@@ -35,6 +35,17 @@ unwrap(() => dogs[3].name) // returns undefined
 unwrap(function() { return cat.owner.name }) // returns 'sean'
 ```
 
+# What it tries to solve
+
+```js
+// We've all been here before
+if (cat && cat.owner && cat.owner.address) {
+	var zip = cat.owner.address.zip;
+}
+
+// with unwrap
+var zip = unwrap(() => cat.owner.address.zip);
+```
 
 # Performance
 
