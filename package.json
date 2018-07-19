@@ -1,0 +1,9 @@
+{
+  "name": "unwrap-value",
+  "version": "1.0.0",
+  "description": "Safely and quickly access deep properties",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Sean Harris",
+  "license": "MIT"
+}
