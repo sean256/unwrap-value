@@ -3,6 +3,8 @@ unwrap-value
 
 Safely and quickly access deep properties
 
+> NOTE: This is a dumb way to do it, don't use this
+
 [![NPM version](https://badge.fury.io/js/unwrap-value.png)](http://badge.fury.io/js/unwrap-value)
 
 # Usage
